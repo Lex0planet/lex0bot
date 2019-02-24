@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-var prefix = ("l!")
+var prefix = ("t!")
 
 bot.on('ready', function() {
     bot.user.setGame("Command: l!help");
